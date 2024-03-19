@@ -1,0 +1,37 @@
+body, htm{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('shop2.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+h1{
+    text-align: center;
+}
+#one {
+    width: 60%; 
+    max-width: 500px; 
+    margin: 100px 200px; 
+    padding: 50px;
+    background-color:lightcoral;
+    box-sizing: border-box;
+    min-height:500px;
+}
+input{
+    width: calc(100% - 20px);
+    height: 35px;
+    margin-bottom: 15px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background-color: lime;
+    display: block;
+    margin: 0 auto; 
+}
+p{
+    margin: 20px 0;
+}
